@@ -358,7 +358,6 @@ background = background.convert()
 background.fill(white)
 
 
-
 clock = pygame.time.Clock()
 
 pygame.font.init()
