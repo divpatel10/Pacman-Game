@@ -355,7 +355,7 @@ background = pygame.Surface(screen.get_size())
 background = background.convert()
   
 # Fill the screen with a black background
-background.fill(black)
+background.fill(white)
 
 
 
