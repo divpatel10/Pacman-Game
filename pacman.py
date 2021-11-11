@@ -354,7 +354,7 @@ background = pygame.Surface(screen.get_size())
 # Used for converting color maps and such
 background = background.convert()
   
-# Fill the screen with a black background
+# Fill the screen with a white background
 background.fill(white)
 
 
