@@ -354,9 +354,8 @@ background = pygame.Surface(screen.get_size())
 # Used for converting color maps and such
 background = background.convert()
   
-# Fill the screen with a black background
-background.fill(black)
-
+# Fill the screen with a white background
+background.fill(white)
 
 
 clock = pygame.time.Clock()
