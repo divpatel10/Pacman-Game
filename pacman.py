@@ -13,6 +13,7 @@ green = (0,255,0)
 red = (255,0,0)
 purple = (255,0,255)
 yellow   = ( 255, 255,0)
+turquoise = (26, 255, 163)
 
 Trollicon=pygame.image.load('images/Trollman.png')
 pygame.display.set_icon(Trollicon)
@@ -86,7 +87,7 @@ def setupRoomOne(all_sprites_list):
      
     # Loop through the list. Create the wall, add it to the list
     for item in walls:
-        wall=Wall(item[0],item[1],item[2],item[3],blue)
+        wall=Wall(item[0],item[1],item[2],item[3],turquoise)
         wall_list.add(wall)
         all_sprites_list.add(wall)
          
