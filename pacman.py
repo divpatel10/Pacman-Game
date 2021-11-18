@@ -8,15 +8,15 @@ import pygame
   
 black = (0,0,0)
 white = (255,255,255)
-blue = (0,0,255)
+blue = (0,70,255)
 green = (0,255,0)
 red = (255,0,0)
 purple = (255,0,255)
 yellow   = ( 255, 255,0)
 turquoise = (26, 255, 163)
 
-Trollicon=pygame.image.load('images/Trollman.png')
-pygame.display.set_icon(Trollicon)
+PacManicon=pygame.image.load('images/Pac-Man_character.png')
+pygame.display.set_icon(PacManicon)
 
 #Add music
 pygame.mixer.init()
