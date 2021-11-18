@@ -20,7 +20,7 @@ pygame.display.set_icon(PacManicon)
 
 #Add music
 pygame.mixer.init()
-pygame.mixer.music.load('theme.mp3')
+pygame.mixer.music.load('pacman.mp3')
 pygame.mixer.music.play(-1, 0.0)
 pygame.mixer.music.set_volume(0.1)
 
